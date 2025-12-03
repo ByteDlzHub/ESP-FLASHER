@@ -1,18 +1,18 @@
 #include <Arduino.h>
+#include <SPI.h>
 
-// put function declarations here:
-int myFunction(int, int);
+bool isconnected;
+bool isidle;
 
-void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
+int linker(bool, bool);
+
+void setup()
+{
+}
+void loop()
+{
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
-}
-
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+int linker(bool isconnected, bool isidle)
+{
 }
